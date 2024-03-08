@@ -1,0 +1,107 @@
+/* MontanaRBriggs.info / MontanaRBriggs.dev */
+
+/* Character set. */
+
+@charset "UTF-8";
+
+/* External fonts. */
+
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url("Resources/Fonts/Montserrat/Montserrat-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Montserrat-SemiBold";
+    src: url("Resources/Fonts/Montserrat/Montserrat-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Montserrat-Italic";
+    src: url("Resources/Fonts/Montserrat/Montserrat-Italic.ttf") format("truetype");
+}
+
+/* General. */
+
+body {
+    /* Color scheme. */
+    background-color: #1A1A1A;
+    color: #CCCCCC;
+
+    /* Default text. */
+    font-family: "Montserrat-Regular";
+    line-height: 1.5em;
+    font-size: 1.25vh;
+
+    /* Default scaling. */
+    max-width: 95vw;
+    margin: 0.30vw auto;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        max-width: 40vw;
+	margin: 0.30vw auto;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: #CC0000;
+}
+
+a:hover {
+    color: #FF6666;
+}
+
+p {
+    font-family: "Montserrat-Italic";
+    font-size: 1em;
+}
+
+hr {
+    color: #CCCCCC;
+}
+
+/* Navigation. */
+
+nav {
+    text-align: center;
+    font-size: 1.4em;
+    color: #CCCCCC;
+}
+
+nav a::before {
+    color: #CCCCCC;
+    content: "[ ";
+}
+
+nav a::after {
+    color: #CCCCCC;
+    content: " ]";
+}
+
+/* Introduction. */
+
+h1 {
+    font-family: "Montserrat-SemiBold";
+    font-size: 2.0em;
+}
+
+/* Main content. */
+
+h2 {
+    font-family: "Montserrat-SemiBold";
+    font-size: 1.4em;
+}
+
+li {
+    font-size: 1.0em;
+}
+
+/* Footer. */
+
+footer {
+    font-family: "Montserrat-Regular";
+    font-size: 1.0vh;
+}
