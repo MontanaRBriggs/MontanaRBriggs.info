@@ -41,17 +41,21 @@ body {
 @media screen and (min-width: 768px) {
     body {
         max-width: 40vw;
-	margin: 0.30vw auto;
+	    margin: 0.30vw auto;
     }
 }
 
 a {
     text-decoration: none;
-    color: #CC0000;
+    color: #6666CC;
 }
 
 a:hover {
-    color: #FF6666;
+    color: #6666FF;
+}
+
+b {
+    font-family: "Montserrat-SemiBold";
 }
 
 p {
@@ -86,6 +90,7 @@ nav a::after {
 h1 {
     font-family: "Montserrat-SemiBold";
     font-size: 2.0em;
+    color: #6666FF;
 }
 
 /* Main content. */
@@ -93,6 +98,12 @@ h1 {
 h2 {
     font-family: "Montserrat-SemiBold";
     font-size: 1.4em;
+    color: #6666FF;
+}
+
+h3 {
+    font-family: "Montserrat-SemiBold";
+    font-size: 1.0em;
 }
 
 li {
